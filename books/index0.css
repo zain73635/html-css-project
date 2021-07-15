@@ -1,0 +1,105 @@
+body{
+    background-color: skyblue;
+    }
+    
+
+    ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+       float: right; 
+       margin: 10px;
+    }
+    ul li{
+        list-style:none;
+        position: sticky;
+         top: 0;
+    }
+
+    .search-box{
+        width: 25%;
+        display: flex;
+
+    }
+    .search-input{
+        width: 100%;
+        height: 23px;
+        padding: 10px;
+        border: 4px solid #111d5e;
+        border-radius:10px 0 0 10px ;
+        border-right: none;
+        outline: none;
+        font-size: 20px;
+        color: tomato;
+        background: none;
+    }
+    .search-button{
+        text-align: center;
+        height: 51px;
+        width: 40px;
+        outline: none;
+        cursor: pointer;
+        border: 4px solid #111d5e;
+        border-radius: 0 10px 10px 0 ;
+        border-left: none;
+        background: none;
+        font-size: 20px;
+        border-left: 4px solid #111d5e;
+
+    }
+
+    .buy{
+        clear: both;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .buy div{
+        margin: 1%;
+        width: celc(92%/ 5);
+        float: left;
+        text-align: center;
+        padding: 22px;
+        top: 0px;
+        bottom: 0px;
+    }
+    .buy h1 {
+        text-align: center;
+        color: crimson;
+        background-color: darkred;
+        border-radius: 25px;
+    }
+
+    .buy div h2{
+        bottom: 0px;
+        top: 0px;
+    }
+    .buy div img{
+        border-radius: 20px;
+    }
+    
+    .buy div a[class="reading"]{
+        text-decoration: none;
+        list-style:none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(18, 7, 112);
+        padding: 2px;
+        border: 1 solid black;
+        border-radius: 25px;
+        padding: 2px;
+        margin: 3px;
+    }
+    .buy div a[class="download"]{
+        text-decoration: none;
+        list-style:none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(11, 71, 3);
+        padding: 2px;
+        border: 1 solid black;
+        border-radius: 25px; 
+        padding: 2px;
+        margin: 3px;
+    
+    }
+    
+   
+    
